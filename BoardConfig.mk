@@ -15,19 +15,19 @@
 
 ### INHERIT FROM YOSHIRO
 include device/sony/yoshino/BoardConfigPlatform.mk
-include vendor/sony/poplar/BoardConfigVendor.mk
+include vendor/sony/poplar_canada/BoardConfigVendor.mk
 
-DEVICE_PATH := device/sony/poplar
+DEVICE_PATH := device/sony/poplar_canada
 
 PRODUCT_PLATFORM := yoshino
 
 ### BOOTLOADER
-TARGET_BOOTLOADER_BOARD_NAME := G8341
+TARGET_BOOTLOADER_BOARD_NAME := G8343
 
 ### KERNEL
 TARGET_KERNEL_CONFIG := lineage-msm8998-yoshino-poplar_defconfig
 
-BOARD_KERNEL_CMDLINE += androidboot.hardware=poplar
+BOARD_KERNEL_CMDLINE += androidboot.hardware=poplar_canada
 
 ### PARTITIONS
 # See also /proc/partitions on the device

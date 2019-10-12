@@ -18,7 +18,7 @@
 
 set -e
 
-DEVICE=poplar
+DEVICE=poplar_canada
 VENDOR=sony
 
 INITIAL_COPYRIGHT_YEAR=2017
