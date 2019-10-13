@@ -1312,7 +1312,7 @@ vendor/etc/init/sct_service.rc
 
 # SENSORS
 vendor/bin/sensors.qti
-vendor/etc/sensors/hals.conf
+vendor/etc/sensors/hals.conf|d79f6416c7229817278b33787873ea2debb9d72a
 vendor/etc/sensors/sensor_def_qcomdev.conf
 vendor/etc/sensors/sensor_def_somc_platform.conf
 vendor/etc/sensors/sensor_def_somc_product.conf
