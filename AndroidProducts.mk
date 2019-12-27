@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_poplar_canada.mk
+    $(LOCAL_DIR)/omni_poplar_canada.mk
