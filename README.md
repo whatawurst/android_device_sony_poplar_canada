@@ -25,13 +25,13 @@ How to build LineageOS
         <?xml version="1.0" encoding="UTF-8"?>
         <manifest>
             <!-- SONY -->
-            <project name="cryptomilk/android_kernel_sony_msm8998" path="kernel/sony/msm8998" remote="github" revision="lineage-17.1" />
-            <project name="cryptomilk/android_device_sony_common-treble" path="device/sony/common-treble" remote="github" revision="lineage-17.1" />
-            <project name="cryptomilk/android_device_sony_yoshino" path="device/sony/yoshino" remote="github" revision="lineage-17.1" />
-            <project name="derfelot/android_device_sony_poplar_canada" path="device/sony/poplar_canada" remote="github" revision="lineage-17.1" />
+            <project name="whatawurst/android_kernel_sony_msm8998" path="kernel/sony/msm8998" remote="github" revision="lineage-17.1" />
+            <project name="whatawurst/android_device_sony_common-treble" path="device/sony/common-treble" remote="github" revision="lineage-17.1" />
+            <project name="whatawurst/android_device_sony_yoshino" path="device/sony/yoshino" remote="github" revision="lineage-17.1" />
+            <project name="whatawurst/android_device_sony_poplar_canada" path="device/sony/poplar_canada" remote="github" revision="lineage-17.1" />
 
             <!-- Pinned blobs for poplar_canada -->
-            <project name="derfelot/android_vendor_sony_poplar_canada" path="vendor/sony/poplar_canada" remote="github" revision="lineage-17.1" />
+            <project name="whatawurst/android_vendor_sony_poplar_canada" path="vendor/sony/poplar_canada" remote="github" revision="lineage-17.1" />
         </manifest>
 
 * Sync the repo:
@@ -50,4 +50,4 @@ How to build LineageOS
 
 * Build LineageOS
 
-        make -j7 bacon
+        make -j8 bacon
