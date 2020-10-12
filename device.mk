@@ -1,5 +1,5 @@
 ### PLATFORM
-$(call inherit-product, device/sony/yoshino/platform.mk)
+$(call inherit-product, device/sony/yoshino-common/platform.mk)
 ### PROPRIETARY VENDOR FILES
 $(call inherit-product, vendor/sony/poplar_canada/poplar_canada-vendor.mk)
 
