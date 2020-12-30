@@ -14,4 +14,7 @@
         <sim_config_id>S8739.2</sim_config_id>
         <sim_config_id>S8739.3</sim_config_id>
     </configuration>
+    <configuration config_id="917">
+        <sim_config_id>S8738.1</sim_config_id>
+    </configuration>
 </configurations>
