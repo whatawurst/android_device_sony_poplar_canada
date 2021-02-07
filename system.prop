@@ -1,5 +1,3 @@
-# system prop for poplar_canada
-
 ### USB
 ro.vendor.usb.pid_suffix=1F3
 
