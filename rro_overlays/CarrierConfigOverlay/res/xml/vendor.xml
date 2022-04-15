@@ -71,7 +71,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
     <!-- Carrier-specific Bell CA -->
     <carrier_config mcc="001" mnc="01">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
     </carrier_config>
 
     <!-- Carrier-specific Freedom CA -->
@@ -89,19 +88,15 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
     <!-- Carrier-specific Bell CA -->
     <carrier_config mcc="302" mnc="610" gid1="3D">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="302" mnc="610" gid1="3E">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="302" mnc="630">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="302" mnc="640">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
     </carrier_config>
 
 </carrier_config_list>
