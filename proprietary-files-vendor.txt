@@ -1,3 +1,6 @@
+## All proprietary files from this list, unless pinned and noted otherwise,
+## are from Xperia XZ1 Canada variant (47.2.A.11.228).
+
 # ADSP
 vendor/bin/adsprpcd
 vendor/lib/rfsa/adsp/libFastRPC_AUE_Forward_skel.so
@@ -1135,7 +1138,6 @@ vendor/etc/init/sct_service.rc
 
 # SENSORS
 vendor/bin/sensors.qti
-vendor/etc/sensors/hals.conf|d79f6416c7229817278b33787873ea2debb9d72a
 vendor/etc/sensors/sensor_def_qcomdev.conf
 vendor/etc/sensors/sensor_def_somc_platform.conf
 vendor/etc/sensors/sensor_def_somc_product.conf
@@ -1146,6 +1148,9 @@ vendor/lib64/libsns_low_lat_stream_stub.so
 vendor/lib64/sensor_calibrate.so
 vendor/lib64/sensors.finger-pickup.so
 vendor/lib64/sensors.ssc.so
+
+# SENSORS - from poplar - 47.2.A.11.228
+vendor/etc/sensors/hals.conf|d79f6416c7229817278b33787873ea2debb9d72a
 
 # TAD - from tama - 52.1.A.3.49
 vendor/bin/tad|0fe3daaa4a4dace32944ebb8daf52fdffdcfac8a
