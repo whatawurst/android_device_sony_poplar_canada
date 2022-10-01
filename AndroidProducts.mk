@@ -15,4 +15,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_poplar_canada.mk
+    $(LOCAL_DIR)/twrp_poplar_canada.mk
+
+COMMON_LUNCH_CHOICES := \
+    twrp_poplar_canada-eng \
+    twrp_poplar_canada-userdebug
